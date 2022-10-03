@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+.container{
+    background-color: chocolate;
+    text-align: center;
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container ul li{
+    width: 130px;
+    margin: 5px;
+    padding: 5px;
+}
+.container ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+}
+.container ul li:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+
+.aboutmenu{
+    display: none;
+}
+.container ul li:hover .aboutmenu{
+    display: block;
+    position: absolute;
+    margin-top: 3px;
+    background-color:gold;
+    border-radius: 10px;
+}
+
+.container ul li:hover .aboutmenu ul{
+    display: block;
+}
+
+.container ul li:hover .aboutmenu ul li {
+    border-bottom: 1px solid rgb(255, 77, 0);
+}
+
+.fa-angle-right{
+    float: right;
+
+}
+
+.intromenu{
+    display: none;
+}
+.hover-2:hover .intromenu{
+    display: block;
+    position: absolute;
+    margin-left: 133px;
+    margin-top: 3px;
+    background-color:rgb(232, 29, 14);
+    border-radius: 10px;
+    color: white;
+}
+
+.servicemenu{
+    display: none;
+}
+
+.container ul li:hover .servicemenu{
+
+    position: absolute;
+    display: block;
+    margin-top: 3px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.container ul li:hover .servicemenu ul{
+    display: block;
+}
+.container ul li:hover .servicemenu ul li {
+    border-bottom: 1px solid white;
+}
+
+
+.fa-angle-right{
+    float: right;
+
+}
+
+.healthmenu{
+    display: none;
+}
+.hmenu-2:hover .healthmenu{
+    display: block;
+    position: absolute;
+    margin-left: 133px;
+    margin-top: 3px;
+    background-color:rgb(12, 237, 31);
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+.contactmenu{
+    display: none;
+}
+
+.container ul li:hover .contactmenu{
+
+    position: absolute;
+    display: block;
+    margin-top: 3px;
+    background-color:hotpink;
+    border-radius: 10px;
+}
+
+.container ul li:hover .contactmenu ul{
+    display: block;
+}
+
+.container ul li:hover .contactmenu ul li {
+    border-bottom: 1px solid white;
+}
+
